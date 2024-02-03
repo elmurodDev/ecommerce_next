@@ -12,9 +12,6 @@ export default function Navbar() {
                     <Link href="/" className="hover:text-white font-medium cursor-pointer">Home</Link>
                     <Link href={'/products'} className="hover:text-white font-medium cursor-pointer">All products</Link>
                 </nav>
-                {/* <button className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
-                    Button
-                </button> */}
 
                 <div className="space-x-3">
                     <button className="button bg-blue-600 border border-transparent text-white text-base font-medium hover:bg-transparent hover:border-blue-600 transition-all delay-100">
